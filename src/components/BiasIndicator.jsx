@@ -1,5 +1,5 @@
 import React from 'react';
-import { AlertCircle, TrendingUp, TrendingDown } from 'lucide-react';
+import { TrendingUp, TrendingDown } from 'lucide-react';
 
 export const BiasIndicator = ({ bias, influence, loading }) => {
   if (loading) {

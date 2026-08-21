@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useMemo } from 'react';
 import { BIAS_STATES, COLOR_SCHEME } from '../constants';
 
 /**

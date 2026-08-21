@@ -4,6 +4,7 @@ export const API_CONFIG = {
   MAX_NEWS_ITEMS: parseInt(process.env.REACT_APP_MAX_NEWS_ITEMS || '6'),
   REFRESH_INTERVAL: parseInt(process.env.REACT_APP_REFRESH_INTERVAL || '30000'),
   DEMO_USER_ID: process.env.REACT_APP_DEMO_USER_ID || 'user_demo_6USA1PPUFT39AYBF',
+  ALPHA_VANTAGE_KEY: process.env.REACT_APP_ALPHA_VANTAGE_KEY || '6USA1PPUFT39AYBF',
 };
 
 // Currency Pairs

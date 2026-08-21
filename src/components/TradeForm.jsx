@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { X } from 'lucide-react';
-import { TRADE_DIRECTION, PAIRS } from '../constants';
+import { TRADE_DIRECTION } from '../constants';
 
 const TradeForm = ({ onSubmit, onCancel, currentBias, influence }) => {
   const [formData, setFormData] = useState({
