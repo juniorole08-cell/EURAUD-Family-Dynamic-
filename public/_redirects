@@ -1,0 +1,3 @@
+/* Netlify redirects for single page app routing */
+/* This tells Netlify to route all requests to index.html */
+/*  /index.html  200

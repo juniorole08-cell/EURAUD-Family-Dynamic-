@@ -1,0 +1,17 @@
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+
+[build]
+command = "npm run build"
+publish = "build/"
+base = "/"
+
+[env]
+PROD = { REACT_APP_API_MODE = "demo", REACT_APP_MAX_NEWS_ITEMS = "6", REACT_APP_REFRESH_INTERVAL = "30000" }
+
+[[headers]]
+for = "/*"
+[headers.values]
+Cache-Control = "public, max-age=3600"
