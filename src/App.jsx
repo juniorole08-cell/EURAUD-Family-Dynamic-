@@ -1,16 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { LogOut, RefreshCw } from 'lucide-react';
-import { authService } from '../services';
-import { useDataFeeds, useTradeJournal, useBiasAnalysis, useTheme } from '../hooks';
-import {
-  ThemeToggle,
-  PriceDisplay,
-  BiasIndicator,
-  NewsCard,
-  TradeCard,
-  EconomicCalendar,
-  COTIndicator,
-} from '../components';
+import { authService } from './services';
+import { useDataFeeds, useTradeJournal, useBiasAnalysis, useTheme } from './hooks';
+import { ThemeToggle } from './components';
 import Dashboard from './pages/Dashboard';
 import TradeJournal from './pages/TradeJournal';
 import Analytics from './pages/Analytics';

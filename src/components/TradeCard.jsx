@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import { X, Plus } from 'lucide-react';
+import { X } from 'lucide-react';
 
 export const TradeCard = ({ trade, onUpdate, onClose, onDelete }) => {
-  const [isEditing, setIsEditing] = useState(false);
   const [editData, setEditData] = useState(trade);
 
   const handleClose = (exitPrice) => {
